@@ -1,16 +1,23 @@
 :root {
-    --primary: #f2d544;
+/*  --primary: #f2d544;
     --dark-blue: #130c24;
     --black: #232020;
     --gray: #999999;
     --beige: #f5f5f1;
+    --gap: 80px; */
+
+    --primary: #FF8A8A;
+    --dark-blue: #130c24;
+    --black: #FFA4A4;
+    --gray: #999999;
+    --beige: #FFF2EB;
     --gap: 80px;
 
     /* theme dependent variables */
-    --text-color: white;
+    --text-color: #FAA533;
     --light-icon: white;
-    --gray-dark: #666666;
-    --gray-light: #bdbdbd;
+    --gray-dark: #FFA4A4;
+    --gray-light: #FAA533;
     --dark-icon: var(--black);
     --anchor-color: var(--primary);
 }
@@ -45,8 +52,6 @@ body {
 	font-family: "Indie Flower", cursive;
 	font-weight: 400;
 	font-style: normal;
-}
-
 }
 
 input,
