@@ -1,3 +1,10 @@
+/* title Indie Flower */
+.indieFlower {
+    font-size: 5.6rem;
+    line-height: 1.05;
+    font-family:"Indie Flower", cursive;
+}
+
 /* Titles */
 .title--lg {
     font-size: 5.6rem;
