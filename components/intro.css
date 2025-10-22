@@ -14,3 +14,7 @@
 #intro p {
     margin-block: 0;
 }
+
+.centerName {
+    text-align: center;
+}

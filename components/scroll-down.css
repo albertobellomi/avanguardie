@@ -27,3 +27,15 @@
         translate: 0 -15px;
     }
 }
+
+#scroll-up {
+    all: unset;
+    outline: revert;
+    box-sizing: border-box;
+    position: fixed;
+    right: 5px;
+    bottom: 25px;
+    left: calc(50vw - 48px / 2);
+    cursor: pointer;
+    rotate: 180deg;
+}
