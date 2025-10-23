@@ -4,6 +4,15 @@ document.querySelector("#scroll-down").addEventListener("click", () => {
     });
 });
 
+
+document.querySelector("#scroll-up").addEventListener("click", () => {
+    window.scrollTo({
+        top: document.querySelector("#intro")
+    });
+});
+
+
+
 document.querySelector("#toggle-theme").addEventListener("click", () => {
     document.documentElement.classList.toggle("light-theme");
 });

@@ -6,9 +6,10 @@
     bottom: 25px;
     left: calc(50vw - 48px / 2);
     cursor: pointer;
+    rotate: 180deg; /* aggiunta rotazione di 180 gradi */
 }
 
-#scroll-down svg {
+#scroll-down img {    /* svg */
     fill: var(--dark-icon);
     transition: fill 350ms;
     animation: bounce 1.6s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -28,14 +29,14 @@
     }
 }
 
-#scroll-up {
+.scroll-up {
     all: unset;
     outline: revert;
     box-sizing: border-box;
     position: fixed;
-    right: 5px;
+    right: 25px;
     bottom: 25px;
-    left: calc(50vw - 48px / 2);
     cursor: pointer;
-    rotate: 180deg;
+    background-image: url(/assets/arrow-neutra.svg);
+    background-repeat: no-repeat;
 }
