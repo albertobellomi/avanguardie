@@ -34,9 +34,8 @@
     outline: revert;
     box-sizing: border-box;
     position: fixed;
-    right: 20px;
-    bottom: 25px;
+    right: 25px;
+    bottom: 5px;
     cursor: pointer;
-    /* background-image: url(/assets/arrows-down.svg); */
     background-repeat: no-repeat;
 }
