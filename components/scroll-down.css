@@ -34,9 +34,9 @@
     outline: revert;
     box-sizing: border-box;
     position: fixed;
-    right: 25px;
+    right: 20px;
     bottom: 25px;
     cursor: pointer;
-    background-image: url(/assets/arrow-neutra.svg);
+    /* background-image: url(/assets/arrows-down.svg); */
     background-repeat: no-repeat;
 }
