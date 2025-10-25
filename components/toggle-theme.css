@@ -91,7 +91,7 @@
   @supports (cx: 1) {
     .sun-and-moon .moon > circle {
       /* transition: cx .25s var(--ease-out-5); */
-      transition: cx .25s ease-in-out);
+      transition: cx .25s ease-in-out;
     }
   }
 
