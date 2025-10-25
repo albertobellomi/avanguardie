@@ -35,8 +35,7 @@
     box-sizing: border-box;
     position: fixed;
     right: 25px;
-    bottom: 25px;
+    bottom: 5px;
     cursor: pointer;
-    background-image: url(/assets/arrow-neutra.svg);
     background-repeat: no-repeat;
 }
