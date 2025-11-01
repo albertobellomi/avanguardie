@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+}
+
+.cube-wrapper {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  box-shadow: 10px 10px 51px -7px rgba(0, 0, 0, 0.75);
+  /* transform: translate(-50%, -50%); */
+}
+
+.cube, .cube div {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-out;
+}
+
+.cube-front {
+  background: url("") #ffffff no-repeat center;
+  background-size: 100%;
+}
+
+.cube-top {
+  background: url("") coral no-repeat center;
+  background-size: 100%;
+
+  transform: translate(0, -100%) rotateX(90deg);
+  transform-origin: bottom;
+  cursor: pointer;
+}
+
+.cube-wrapper:hover .cube {
+  transform: translate(0,50%) rotateX(-90deg);
+}
